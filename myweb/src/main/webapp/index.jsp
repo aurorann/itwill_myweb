@@ -40,7 +40,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="./bbs/bbsList.jsp">게시판</a></li>
-        <li><a href="#">공지사항</a></li>
+        <li><a href="./notice/noticeList.jsp">공지사항</a></li>
         <li><a href="./member/loginForm.jsp">로그인</a></li>
         <li><a href="./pds/pdsList.jsp">포토갤러리</a></li>
         <li><a href="./mail/mailForm.jsp">메일보내기</a></li>

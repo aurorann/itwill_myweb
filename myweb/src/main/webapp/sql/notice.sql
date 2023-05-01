@@ -12,6 +12,16 @@
     ,primary key(noticeno)                 -- noticeno 기본키
    );
 
+1-1) mysql 테이블 생성
+
+     CREATE TABLE tb_notice (
+      noticeno       INT            NOT NULL AUTO_INCREMENT PRIMARY KEY
+      ,subject    VARCHAR(100)   NOT NULL
+      ,content     TEXT          NOT NULL
+      ,regdt    DATETIME       NOT NULL
+     );
+   
+   
 
 2) 일련번호 시퀀스 생성
 
